@@ -1,0 +1,16 @@
+{
+  "name": "notiflib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:pub": "node ./tests/test.js",
+    "test:sub": "node ./tests/receiver_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
